@@ -1,0 +1,358 @@
+/*!
+ * meet-the-ipsums
+ *
+ * MIT licensed
+ * Copyright (C) 2013 Tim Holman, http://tholman.com
+ */
+
+/*********************************************
+ *
+ *********************************************/
+
+html, body {
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+}
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header {
+	font-family: 'Grand Hotel', cursive;
+	position: relative;
+	overflow: hidden;
+	background: #111;
+	margin-top: 60px;
+	font-size: 32px;
+	height: 700px;
+	width: 100%;
+	z-index: 2;
+}
+
+.fixed-title {
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+	font-family: 'Grand Hotel', cursive;
+	
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-i-transform: translateZ(0);
+	transform: translateZ(0);
+
+	padding-right: 80px;
+	padding-left: 80px;
+	text-align: center;
+	background: #fff;
+	line-height: 60px;
+	font-size: 28px;
+	position: fixed;
+	color: #66696a;
+	height: 60px;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+}
+
+.kerning {
+	display: inline-block;
+	margin-left: -1px;
+}
+
+.heading {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+.heading.translatable {
+	-webkit-transition: width 500ms;
+	-moz-transition: width 500ms;
+	-ms-transition: width 500ms;
+	-o-transition: width 500ms;
+	transition: width 500ms;
+}
+
+.fixed-title.active .heading {
+	width: 145px !important;
+}
+
+.share-links {
+	-webkit-transition: right 500ms;
+	-moz-transition: right 500ms;
+	-ms-transition: right 500ms;
+	-o-transition: right 500ms;
+	transition: right 500ms;
+
+	text-align: right;
+	width: 600px;
+
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	width: 300px;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	right: -400px;
+}
+
+.share-links .twitter-share-button {
+	vertical-align: top;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.share-links .fb-like iframe {
+	margin-top: 4px;
+}
+
+.fixed-title.active .share-links {
+	right: 80px;
+}
+
+article {
+	font-family: 'Roboto Slab', serif;
+	position: absolute;
+	padding: 80px;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+
+	left: 100%;
+
+	-webkit-transition: left 700ms, opacity 700ms;
+	-moz-transition: left 700ms, opacity 700ms;
+	-ms-transition: left 700ms, opacity 700ms;
+	-o-transition: left 700ms, opacity 700ms;
+	transition: left 700ms, opacity 700ms;
+}
+
+article .background svg {
+	display: none;
+	margin-left: -250px;
+	margin-top: -250px;
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	z-index: 1;
+	left: 50%;
+	top: 50%;
+}
+
+.background path, .background polygon {
+	fill: rgba(255,255,255,0.2);
+}
+
+article .feature {
+	z-index: 2;
+	margin-bottom: 20px;
+	position: relative;
+	text-align: left;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+}
+
+article .text {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	height: 430px;
+	font-size: 80px;
+	text-align: left;
+	overflow: hidden;
+	font-weight: 200;
+	margin-bottom: 10px;
+}
+
+article.fade {
+	opacity: 0.3;
+	left: 0px;
+}
+
+article.active {
+	z-index: 10;
+	opacity: 1;
+	left: 0px;
+}
+
+.intro {
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+}
+
+ul {
+	margin-bottom: 700px;
+	margin-top: 0px;
+	padding-top: 10px;
+	background: #fff;
+	z-index: 2;
+	position: relative;
+	font-family: 'Roboto Slab', serif;
+	padding-right: 80px;
+	padding-left: 80px;
+	list-style: none;
+}
+
+li {
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom: 35px;
+	padding-top: 35px;
+}
+
+li:last-child {
+	padding-bottom: 50px;
+	border-bottom: 0px;
+}
+
+li .title {
+	font-weight: 400;
+	font-size: 18px;
+	color: #333;
+}
+
+.sample {
+	margin-bottom: 7px;
+	margin-top: 2px;
+	font-size: 44px;
+	color: inherit;
+
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: 300;
+	overflow: hidden;
+	height: 65px;
+}
+
+.link {
+	font-size: 13px;
+	color: #999;
+}
+
+.options a, .link a {
+
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-ms-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition: all 300ms;
+
+	border: 1px solid #E0E0E0;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 4px;
+	padding-right: 8px;
+	padding-left: 8px;
+	margin-left: 5px;
+	font-size: 13px;
+	opacity: 1;
+	color: #333;
+}
+
+.options a {
+	border-color: inherit;
+	font-size: 14px;
+	color: inherit;
+}
+
+.link a:hover {
+	border-color: #555;
+}
+
+.options a:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
+	background: #222425;
+	padding-right: 80px;
+	padding-left: 80px;
+	overflow: auto;
+	height: 720px;
+
+	-webkit-transform: translateZ(0px);
+	-moz-transform: translateZ(0px);
+	-ms-transform: translateZ(0px);
+	-o-transform: translateZ(0px);
+	transform: translateZ(0px);
+}
+
+.logo {
+	margin-bottom: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.tagline {
+	font-family: 'Roboto Slab', serif;
+	font-size: 54px;
+	font-weight: 200;
+}
+
+.tagline span {
+	color: #E2B45C;
+}
+
+.logo p {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.contact {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	color: #666;
+}
+
+.contact a {
+	color: #fff;
+}
+
+.share {
+	font-family: 'Roboto Slab', serif;
+	border-top: 1px solid #666;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+	padding: 40px;
+	height: 100px;
+	color: #666;
+
+	position: fixed;
+	bottom: 0px;
+	padding-left: 80px;
+	padding-right: 80px;
+
+	width: 1000px;
+	left: 50%;
+	margin-left: -500px;
+}
+
+.share a {
+	color: #fff;
+}
+
+.devide {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.twitter-follow-button {
+	margin-bottom: -5px;
+}
+
+
+
