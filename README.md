@@ -1,7 +1,7 @@
-meettheipsums
+Meet The Ipsums
 =============
 
-A Lorem Ipsum Hub
+An Ipsum Hub - [meettheipsums.com](http://meettheipsums.com)
 
 ## To Add an ipsum
 1. Pull repository
