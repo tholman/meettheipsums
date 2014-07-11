@@ -354,5 +354,9 @@ footer {
 	margin-bottom: -5px;
 }
 
+.fb-like span {
+	vertical-align: inherit !important;
+}
+
 
 
