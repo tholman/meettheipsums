@@ -87,4 +87,4 @@ Here is a list of the current ipsums, if you see something broken, please remove
 ## License
 
 The MIT License (MIT)
-Copyright (C) 2014 ~ [Tim Holman](http://tholman.com) ~ timothy.w.holman@gmail.com
+Copyright (C) 2014 ~ [Tim Holman](http://tholman.com) & [Claudio Guglieri](http://whydontwetry.com)
