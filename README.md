@@ -11,7 +11,7 @@ A website to link out to all of the awesome filler text in the world - [meetthei
 <!-- ipsum name here -->
 <li>
     <div class="title">Ipsum name ipsum</div>
-    <div class="sample" style="color: #4796B8;">
+    <div class="sample" style="color: #unique-hex-color;">
         A bunch of ipsum text, all in one line, with no line breaks. Probably enouch to fill a good sized screen.
     </div>
     <div class="link">
@@ -86,5 +86,5 @@ Here is a list of the current ipsums, if you see something broken, please remove
 
 ## License
 
-The MIT License (MIT)
-> Copyright (C) 2014 ~ [Tim Holman](http://tholman.com) & [Claudio Guglieri](http://whydontwetry.com)
+The MIT License (MIT)  
+Copyright (C) 2014 ~ [Tim Holman](http://tholman.com) & [Claudio Guglieri](http://whydontwetry.com)
