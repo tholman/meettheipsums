@@ -1,7 +1,7 @@
 Meet The Ipsums
 =============
 
-An Ipsum Hub - [meettheipsums.com](http://meettheipsums.com)
+A website to link out to all of the awesome filler text in the world - [meettheipsums.com](http://meettheipsums.com)
 
 ## To Add an ipsum
 1. Pull repository
