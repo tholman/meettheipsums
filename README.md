@@ -83,6 +83,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 45. [Ryan Gosling ipsum](http://www.rygo-ipsum.com/)
 46. [Horse Ebooks ipsum](http://horseebooksipsum.com/)
 47. [Heisenberg ipsum](http://heisenbergipsum.com/) 
+48. [Social Good ipsum](http://socialgoodipsum.com/)
 
 ## License
 
