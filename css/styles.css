@@ -124,13 +124,17 @@ article {
 	width: 100%;
 	z-index: 1;
 
-	left: 100%;
+	-webkit-transform: translateX(100%);
+	-moz-transform:    translateX(100%);
+	-ms-transform:     translateX(100%);
+	-o-transform:      translateX(100%);
+	transform:         translateX(100%);
 
-	-webkit-transition: left 700ms, opacity 700ms;
-	-moz-transition: left 700ms, opacity 700ms;
-	-ms-transition: left 700ms, opacity 700ms;
-	-o-transition: left 700ms, opacity 700ms;
-	transition: left 700ms, opacity 700ms;
+	-webkit-transition: -webkit-transform 700ms, opacity 700ms;
+	-moz-transition: -moz-transform 700ms, opacity 700ms;
+	-ms-transition: -ms-transform 700ms, opacity 700ms;
+	-o-transition: -o-transform 700ms, opacity 700ms;
+	transition: transform 700ms, opacity 700ms;
 }
 
 article .background svg {
@@ -173,13 +177,24 @@ article .text {
 
 article.fade {
 	opacity: 0.3;
-	left: 0px;
+
+	-webkit-transform: translateX(0%);
+	-moz-transform:    translateX(0%);
+	-ms-transform:     translateX(0%);
+	-o-transform:      translateX(0%);
+	transform:         translateX(0%);
 }
 
 article.active {
 	z-index: 10;
 	opacity: 1;
 	left: 0px;
+
+	-webkit-transform: translateX(0%);
+	-moz-transform:    translateX(0%);
+	-ms-transform:     translateX(0%);
+	-o-transform:      translateX(0%);
+	transform:         translateX(0%);
 }
 
 .intro {
