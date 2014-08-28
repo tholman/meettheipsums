@@ -84,6 +84,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 46. [Horse Ebooks ipsum](http://horseebooksipsum.com/)
 47. [Heisenberg ipsum](http://heisenbergipsum.com/) 
 48. [Social Good ipsum](http://socialgoodipsum.com/)
+49. [Doctor Who ipsum](http://doctoripsum.com)
 
 ## License
 
