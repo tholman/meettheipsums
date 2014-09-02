@@ -19,19 +19,7 @@ var carouselElements = document.querySelectorAll( 'article' );
 var currentSlide = 0;
 var animationTime = 750;
 
-/* 
- *  Sizes
- */
-
 headerContainer.className = "heading translatable";
-var height = window.innerHeight;
-
-headerContainer.style.width = window.innerWidth - 160 + "px";
-
-footer.style.paddingTop = ((height / 2) - 90) + "px";
-footer.style.height = height + "px";
-
-list.style.marginBottom = height + "px";	
 
 
 /* 
@@ -40,7 +28,7 @@ list.style.marginBottom = height + "px";
 
 var active = false;
 var lastElement, nextElement;
-window.addEventListener( 'scroll', onScroll, false)
+window.addEventListener( 'scroll', onScroll, false );
 
 function onScroll( event ) {
 
@@ -56,6 +44,31 @@ function onScroll( event ) {
 		header.className = 'fixed-title';
 	}
 }
+
+/* 
+ *  Sizes
+ */
+
+window.addEventListener( 'resize', onResize, false );
+
+function onResize( event ) {
+	var height = window.innerHeight;
+
+	headerContainer.style.width = window.innerWidth - 160 + "px";
+
+	footer.style.paddingTop = ((height / 2) - 90) + "px";
+	footer.style.height = height + "px";
+
+	list.style.marginBottom = height + "px";
+
+	console.log( "hello?" );
+}
+
+onResize();
+
+/* 
+ *  Carousel
+ */
 
 function updateCarousel() {
 
@@ -82,8 +95,6 @@ function updateCarousel() {
 	setTimeout( function() {
 		execute();
 	}, animationTime);
-
-
 }
 
 setInterval( updateCarousel, 6000 );
