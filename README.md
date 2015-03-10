@@ -88,6 +88,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 50. [Doctor Who ipsum](http://doctoripsum.com)
 51. [Tina Belcher ipsum](http://tinaipsum.rocks/)
 52. [Nietzsche Ipsum](http://nietzsche-ipsum.com/)
+53. [Forcem Ipsum](http://forcemipsum.com/)
 
 ## License
 
