@@ -65,7 +65,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 27. [Riker ipsum](http://www.rikeripsum.com/)
 28. [Baby ipsum](http://www.babyipsum.com/)
 29. [Pahu ipsum](http://www.pahu.maori.nz/)
-30. [Halloumi ipsum](http://halloumipsum.com/)
+30. Deleted - [Halloumi ipsum](http://halloumipsum.com/)
 31. [Melbourne ipsum](http://www.melbourneipsum.com.au/)
 32. [Picksum ipsum](http://www.picksumipsum.co.uk/)
 33. [Alien ipsum](http://ancientalienipsum.com/)
