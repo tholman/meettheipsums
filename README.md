@@ -89,7 +89,9 @@ Here is a list of the current ipsums, if you see something broken, please remove
 51. [Tina Belcher ipsum](http://tinaipsum.rocks/)
 52. [Nietzsche Ipsum](http://nietzsche-ipsum.com/)
 53. [Forcem Ipsum](http://forcemipsum.com/)
-53. [Office Ipsum](http://officeipsum.com/)
+54. [Office Ipsum](http://officeipsum.com/)
+55. [Lorem F'ing Ipsum](http://loremfuckingipsum.com/)
+
 
 ## License
 
