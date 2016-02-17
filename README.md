@@ -91,6 +91,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 53. [Forcem Ipsum](http://forcemipsum.com/)
 54. [Office Ipsum](http://officeipsum.com/)
 55. [Lorem F'ing Ipsum](http://loremfuckingipsum.com/)
+56. [Khaled ipsum](http://khaledipsum.com/)
 
 
 ## License
