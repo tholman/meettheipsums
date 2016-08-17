@@ -92,6 +92,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 54. [Office Ipsum](http://officeipsum.com/)
 55. [Lorem F'ing Ipsum](http://loremfuckingipsum.com/)
 56. [Khaled ipsum](http://khaledipsum.com/)
+57. [Dating ipsum](http://laurenhallden.com/datingipsum/)
 
 
 ## License
