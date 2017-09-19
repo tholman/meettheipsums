@@ -93,6 +93,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 55. [Lorem F'ing Ipsum](http://loremfuckingipsum.com/)
 56. [Khaled ipsum](http://khaledipsum.com/)
 57. [Dating ipsum](http://laurenhallden.com/datingipsum/)
+58. [Cheeseburger ipsum](http://cheeseburgeripsum.com/)
 
 
 ## License
