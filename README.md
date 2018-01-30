@@ -95,6 +95,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 57. [Dating ipsum](http://laurenhallden.com/datingipsum/)
 58. [Cheeseburger ipsum](http://cheeseburgeripsum.com/)
 59. [Stranger ipsum](http://stranger-ipsum.robertcooper.me/)
+60. [Agency Ipsum](http://agencyipsum.website/)
 
 
 ## License
