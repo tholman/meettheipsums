@@ -97,6 +97,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 59. [Stranger ipsum](http://stranger-ipsum.robertcooper.me/)
 60. [Agency Ipsum](http://agencyipsum.website/)
 61. [Godfather Ipsum](https://godfatheripsum.github.io/)
+62. [Wine Ipsum](https://www.wineipsum.com/)
 
 
 ## License
