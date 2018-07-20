@@ -35,7 +35,7 @@ A website to link out to all of the awesome filler text in the world - [meetthei
 
 Here is a list of the current ipsums, if you see something broken, please remove it from the index.html and mark it as deleted in this README. The ipsums marked deleted were done so because they went down, or were down over a period of days.
 
-0. [Lorem ipsum](http://www.lipsum.com/)
+0. [Lorem ipsum](https://loremipsum.io/)
 1. [Coffee ipsum](http://coffeeipsum.com/)
 2. [Cat ipsum](http://www.catipsum.com/)
 3. [Bluth ipsum](http://bluthipsum.com/)
