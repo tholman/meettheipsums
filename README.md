@@ -99,6 +99,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 61. [Godfather Ipsum](https://godfatheripsum.github.io/)
 62. [Wine Ipsum](https://www.wineipsum.com/)
 63. [Wrestling Ipsum](http://www.wrestlingipsum.com/)
+64. [日本語ipsum](https://nihongoipsum.com/)
 
 
 ## License
