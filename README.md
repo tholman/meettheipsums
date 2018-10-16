@@ -52,7 +52,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 14. [Sagan ipsum](http://saganipsum.com/)
 15. [Bacon ipsum](http://baconipsum.com/?paras=5&type=all-meat)
 16. [Skate ipsum](http://skateipsum.com/)
-17. [Lebowskii ipsum](http://www.lebowskiipsum.com/)
+17. Deleted - [Lebowskii ipsum](http://www.lebowskiipsum.com/)
 18. [Pirate ipsum](http://pirateipsum.me/)
 19. [Vegas ipsum](http://vegasipsum.com/)
 20. Deleted - [Beer ipsum](http://beeripsum.com/)
