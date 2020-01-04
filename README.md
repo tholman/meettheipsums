@@ -100,7 +100,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 62. [Wine Ipsum](https://www.wineipsum.com/)
 63. [Wrestling Ipsum](http://www.wrestlingipsum.com/)
 64. [日本語ipsum](https://nihongoipsum.com/)
-
+65. [Business Ipsum](https://randommer.io/business-lorem-ipsum-text/)
 
 ## License
 
