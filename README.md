@@ -100,6 +100,8 @@ Here is a list of the current ipsums, if you see something broken, please remove
 62. [Wine Ipsum](https://www.wineipsum.com/)
 63. [Wrestling Ipsum](http://www.wrestlingipsum.com/)
 64. [日本語ipsum](https://nihongoipsum.com/)
+65. [Spiritual Ipsum](http://spiritualipsum.com/)
+66. [Jesus Ipsum](http://jesusipsum.com/)
 
 
 ## License
