@@ -107,6 +107,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 65. [日本語 ipsum](https://nihongoipsum.com/)
 66. [Spiritual Ipsum](http://spiritualipsum.com/)
 67. [Jesus Ipsum](http://jesusipsum.com/)
+68. [Ruhrpott Ipsum](https://ruhrpott-ipsum.de/)
 
 ## License
 
