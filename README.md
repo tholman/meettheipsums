@@ -108,6 +108,7 @@ Here is a list of the current ipsums, if you see something broken, please remove
 66. [Spiritual Ipsum](http://spiritualipsum.com/)
 67. [Jesus Ipsum](http://jesusipsum.com/)
 68. [Ruhrpott Ipsum](https://ruhrpott-ipsum.de/)
+69. [Various Alphabets Ipsum](https://ipsumtxt.com/)
 
 ## License
 
